@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import RadioInput from "./ui/RadioInput";
+import RadioInput from "../ui/RadioInput";
 import styles from "./Menu.module.css";
 
 const Menu = (props) => {

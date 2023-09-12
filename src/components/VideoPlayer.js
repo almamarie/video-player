@@ -1,5 +1,5 @@
 import React from "react";
-import Menu from "./Menu";
+import Menu from "./Menu/Menu";
 import { videosData } from "../utils/data";
 
 const VideoPlayer = () => {
