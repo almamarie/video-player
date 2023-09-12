@@ -4,8 +4,8 @@ import { videosData } from "../utils/data";
 
 const VideoPlayer = () => {
   const generateMenuData = () => {
-    videosData.map((data) => {
-      return { name: data.name };
+    return videosData.map((data) => {
+      return { value: data.name };
     });
   };
 
